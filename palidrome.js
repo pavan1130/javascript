@@ -7,7 +7,7 @@ const palidrome = (num) => {
     rev = rev * 10 + rem;
     num = Math.floor(num / 10);
   }
-  if (temp == num) {
+  if (rev == temp) {
     console.log(" is a palidrome ", temp);
   } else {
     console.log("is not a palidrome", temp);
